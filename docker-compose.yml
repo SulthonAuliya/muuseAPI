@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    command: npm run dev
+    container_name: muuseAPI
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    env_file:
+      - .env
+
+networks:
+  muuse_network:
+    external: true
+    name: muuse_network
