@@ -1,7 +1,7 @@
 # muuseAPI
 This repo is for Muuse hiring process
 
-#How to run
+# How to run
  - copy .env.example and rename it to .env
  - Run this command bellow in your root project terminal
    ```
